@@ -1,0 +1,312 @@
+html{
+  letter-spacing: 1pt;  
+}
+
+head {
+  transition: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: grey;
+}
+
+div{
+  transform: none;
+}
+
+.mainlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  .//Ccolor: rgb(255,0,0);
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: inherit;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.slideShow-container{
+ max-width: 100px;
+ max-height: 100px;
+ margin: auto;
+ align-content: center;
+}
+
+
+
+header{
+  text-align: center;
+  transition: none;
+}
+
+h1 {
+        border: solid;
+        border-width: 2px;
+        border-color: red;
+        text-align: center;
+        font-size: 30pt;
+        color: black;
+        margin-bottom: 5px;
+        .Mmargin-left: 20px;
+        text-decoration: none;
+    }
+
+p {
+  color: black;
+  text-decoration: none;
+  transition: none;
+}    
+
+h2{
+  color: black;
+  text-align: left;
+  transition: none;
+}
+
+
+h3 {
+      border-style: solid;
+      border-width: 1px;
+      border-color: black;
+      text-align: center;
+      font-size: 20pt;
+      color: red;
+      margin-bottom: 5px;
+      .Mmargin-left: 20px;
+      text-decoration: none;
+      background-color: darkgrey;
+    }
+
+h4 {
+  color: black;
+  text-align: left;
+  transition: none;
+}
+
+input, button {
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.main-div, .loggedin-div{
+  width: 20%;
+  margin: 0px auto;
+  margin-top:40px;
+  padding: 20px;
+}
+
+.btnSignUp {
+  display: none;
+}
+
+
+.main-div input{
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main-div button {
+  background: red;
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+}
+
+.Login_container button{
+    text-align: center;
+  transition: none;
+}
+
+.loggedin-div button {
+  background: red;
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+}
+
+
+.footerlogo {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer{
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+
+.pagebttm {
+    display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+
+.flex-container-home{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-home > div {
+  background-color: none;
+  width: 375px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.services-dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.services-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.flex-container-services{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-services > div {
+  background-color: none;
+  width: 310px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.flex-container-testimonials{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-testimonials > div {
+  background-color: none;
+  width: 310px;
+  margin: 8px;
+  text-align: center;
+  line-height: 75px;
+}
+
+
+.flex-container-testimonials1{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-testimonials1 > div {
+  background-color: none;
+  width: 310px;
+  margin: 8px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.flex-container-testimonials2{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-testimonials2 > div {
+  background-color: none;
+  width: 310px;
+  margin: 8px;
+  text-align: center;
+  line-height: 75px;
+}
+
+
+
+.flex-container-contact {
+  display: flex;
+  justify-content: flex;
+  background-color: none;
+} 
+
+.flex-container-contact > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: left;
+  line-height: 75px;
+  font-size: 18px;
+  
+}
+
+i{
+  color: black;
+}
