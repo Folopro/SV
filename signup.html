@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="javascript/lg.js" type="text/javascript" ></script>
+<script src="javascript/login.js" type="text/javascript"></script>
+<script src="javascript/date.js" type="text/javascript"></script>
+<script src="javascript/imageChange.js" type="text/javascript"></script>
+<script src="javascript/dominject.js" type="text/javascript"></script>
+
+
+<link href="bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">  
+<link href="CSS/Styles.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
+<title> Southern Valet </title>
+</head>
+
+<body>
+
+<div class="mainlogo">
+  <img class="img-fluid" src="images/blkwht_skyline_logo.png" alt="Southern Valet Logo" width="1900" height="320">
+</div>
+
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+    <div class="container-fluid"> 
+        <!--<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>-->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav navbar-center">
+        <a href="Project6.html" class="nav-item nav-link active">Home</a>
+        <a href="Services.html" class="nav-item nav-link">Services</a>
+        <a href="Testimonials.html" class="nav-item nav-link">Testimonials</a>
+        <a href="Contact.html" class="nav-item nav-link">Contact</a>
+                
+                    <!--<form action="/action_page.php">
+                  <label for="em_field"> Email:</label>
+                 <input type="email" id="em_field" placeholder="Enter Email"/>
+                 <label for="pw_field"> Password:</label>
+                <input type="password" id="pw_field" placeholder="Enter Password"/>
+              </form>
+
+                              <div id="login_div" class="nav_div">
+                <button id="loginBtn"> Login </button>
+                   <script >
+                     login();
+                   </script>-->
+
+                </div>
+            </div>
+        </div> 
+</nav>
+
+<h1>
+Welcome to the  FireBase Login Page
+</h1> 
+
+<div id="login_div" class="main-div">
+    <label for="em_field"> Email:</label>
+    <input type="email" id="em_field" placeholder="Enter Email"/>
+    <label for="pw_field"> Password:</label>
+    <input type="password" id="pw_field" placeholder="Enter Password"/>
+
+    <button id="lgbtn"> Login </button>  
+    <script type="text/javascript"> lg(); </script>
+
+</div>
+
+<div id="user_div" class="loggedin-div">
+    <h3> Welcome User </h3>
+    <p id="user_p"> You are currently logged in and may access the Contact Page</p>
+    <button id="btnLogout" class="btn btn-action hide">Logout </button>
+
+
+</div>        
+
+
+<!--<button id="domBtn"> Click Here </button>
+     <script >
+        dominject();
+     </script>
+<h2>
+Please Enter your username and password
+</h2> -->
+
+
+
+ <footer>
+  <div class="footerlogo">
+  <img src="images/logo.jpg" id="footlogo" class="rounded-circle" alt="Southern Valet Logo" width="160" height="100">
+  <!--<img id="new1"> </img>
+  <img id="old1"> </img>-->
+  </div>
+
+<script type="text/javascript">
+    imageChange();
+</script>
+
+  <p> 2019 Copyright Southern Valet.</p> <i>All Rights Reserved</i>
+  <p>Posted by: Foster Logan</p>
+  <p>Contact information: <a href="mailto:fllogan@olemiss.edu">
+  fllogan@olemiss.edu</a>.</p>
+
+  <span id="thedate">the date updates here</span>
+    <script type="text/javascript">
+    date();
+  </script>
+</footer> 
+
+ <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-analytics.js"></script>
+
+
+</body>
+
+</html>
