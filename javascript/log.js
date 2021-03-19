@@ -1,0 +1,3 @@
+function logs(){
+	alert("working");
+}
